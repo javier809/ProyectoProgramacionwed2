@@ -6,7 +6,9 @@ import { ReservasInterfaz } from './interfaz/ReservasInterfaz';
   providedIn: 'root'
 })
 export class ReservasService {
-  baseUrlReservas: string = 'https://localhost:7086/api/ReservasHabitaciones';
+  baseUrlReservas: string = 'https://apiangular-e7asevgccshgaqdn.northeurope-01.azurewebsites.net/api/ReservasHabitaciones';
+
+  //https://localhost:7086/api/ReservasHabitaciones
 
   constructor(private http: HttpClient) { }
 
